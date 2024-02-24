@@ -1,0 +1,1 @@
+Select cod_region,desc_region from region order by desc_region;
