@@ -1,0 +1,78 @@
+body{ 
+  height: 100vh;
+background-image: url("https://www.myfreetextures.com/wp-content/uploads/2014/10/sky2.jpg");
+}
+
+header{
+background-color: black;
+width: 100%;
+height: 20%;
+
+
+}
+
+nav{ 
+background-color: greenyellow;
+width: 100%;
+height: 50px;
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxoyhc17exU4iY8Shpcog9cKewL141u83Afg&usqp=CAU");
+background-repeat: no-repeat;
+background-position-x: center;
+background-position-y: center;
+background-size: 10rem;
+background-size: cover;
+} 
+
+section{ 
+background-color: aquamarine;
+width: 70%;
+height: 100%;
+background-image: url("https://cdn.mos.cms.futurecdn.net/LDtcj4VdJwfKCGcf3bjNzH.jpg");
+background-repeat: no-repeat;
+background-position-x: center;
+background-position-y: center;
+background-size: 10rem;
+background-size: cover;
+color: red;
+
+
+
+
+}
+
+aside{
+background-color: blueviolet;
+width: 30%;
+height: 100%;
+background-image: url("https://media.vandal.net/m/26402/final-fantasy-xiv-heavensward-2015625111631_1.jpg");
+background-repeat: no-repeat;
+background-position-x: center;
+background-position-y: center;
+background-size: 10rem;
+background-size: cover;
+
+}
+
+footer{ 
+background-color: black;
+width: 100%;
+height: 10%;
+font-size: 200%;
+color:white;
+
+
+
+} 
+
+.container { 
+    height: 60%;
+    display: flex;
+    
+    
+} 
+
+
+#Enlaces { 
+font-size: 200%;
+
+}
