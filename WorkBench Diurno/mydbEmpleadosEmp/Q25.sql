@@ -1,0 +1,1 @@
+SELECT * FROM Empleados WHERE codDeptoEmp = 14

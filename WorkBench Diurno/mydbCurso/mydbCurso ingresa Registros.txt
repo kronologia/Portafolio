@@ -1,0 +1,18 @@
+INSERT INTO `mydbcurso`.`integrantes` (`rutIntegr`, `nomIntegr`, `appIntegr`, `apmIntegr`, `fecnanacIntegre`) VALUES ('21578353-7', 'JOSE FRANCISCO', 'GUZMAN', 'ROA', '18-05-2002');
+INSERT INTO `mydbcurso`.`integrantes` (`rutIntegr`, `nomIntegr`, `appIntegr`, `apmIntegr`, `fecnanacIntegre`) VALUES ('20450629-9', 'MATIAS ROBINSON', 'BASTIAS ', 'CIFUENTES', '13-06-2003');
+INSERT INTO `mydbcurso`.`integrantes` (`rutIntegr`, `nomIntegr`, `appIntegr`, `apmIntegr`, `fecnanacIntegre`) VALUES ('19198136-7', 'PABLO ROBERTO', 'CHAMORRO', 'NAVARRETE', '10-03-2003');
+INSERT INTO `mydbcurso`.`integrantes` (`rutIntegr`, `nomIntegr`, `appIntegr`, `apmIntegr`, `fecnanacIntegre`) VALUES ('21611356-K', 'JAVIER ENRIQUEZ ', 'CORREA', 'MARTINEZ', '11-02-2001');
+INSERT INTO `mydbcurso`.`integrantes` (`rutIntegr`, `nomIntegr`, `appIntegr`, `apmIntegr`, `fecnanacIntegre`) VALUES ('20080525-9', 'MICHAEL ENGELBERT', 'EGGER', 'CERDA', '28-03-2002');
+INSERT INTO `mydbcurso`.`integrantes` (`rutIntegr`, `nomIntegr`, `appIntegr`, `apmIntegr`, `fecnanacIntegre`) VALUES ('20657773-8', 'SEBASTIÁN OMAR', 'FIGUEROA ', 'DORNEMANN', '18-04-2003');
+INSERT INTO `mydbcurso`.`integrantes` (`rutIntegr`, `nomIntegr`, `appIntegr`, `apmIntegr`, `fecnanacIntegre`) VALUES ('21129507-4', 'FRANCISCO JAVIER', 'HUENCHUÑIR', 'MILLAÑIR', '19-06-2002');
+INSERT INTO `mydbcurso`.`integrantes` (`rutIntegr`, `nomIntegr`, `appIntegr`, `apmIntegr`, `fecnanacIntegre`) VALUES ('20978480-7', 'BENJAMIN ANDRES', 'MARIN', 'PARRA', '17-01-2001');
+INSERT INTO `mydbcurso`.`integrantes` (`rutIntegr`, `nomIntegr`, `appIntegr`, `apmIntegr`, `fecnanacIntegre`) VALUES ('19194629-4', 'LUIS FERNANDO', 'MILLANAO', 'ALONQUEO', '19-03-2001');
+INSERT INTO `mydbcurso`.`integrantes` (`rutIntegr`, `nomIntegr`, `appIntegr`, `apmIntegr`, `fecnanacIntegre`) VALUES ('21042476-8', 'BASTIÁN EMIR', 'MUÑOZ ', 'RIQUELME', '18-02-2002');
+INSERT INTO `mydbcurso`.`integrantes` (`rutIntegr`, `nomIntegr`, `appIntegr`, `apmIntegr`, `fecnanacIntegre`) VALUES ('21341275-2', 'ANTONIO ANDRES', 'PEREZ', 'SUAZO ', '13-01-2003');
+INSERT INTO `mydbcurso`.`integrantes` (`rutIntegr`, `nomIntegr`, `appIntegr`, `apmIntegr`, `fecnanacIntegre`) VALUES ('19535815-K', 'JAIME ANDRES', 'PEREZ', 'VELASQUEZ', '11-01-2002');
+INSERT INTO `mydbcurso`.`integrantes` (`rutIntegr`, `nomIntegr`, `appIntegr`, `apmIntegr`, `fecnanacIntegre`) VALUES ('19936138-4', 'MARCOS', 'ROSALES', 'TORRE', '19-04-2001');
+INSERT INTO `mydbcurso`.`integrantes` (`rutIntegr`, `nomIntegr`, `appIntegr`, `apmIntegr`, `fecnanacIntegre`) VALUES ('18873614-9', 'AMIR ABRAHAM MOISES ', 'TESSAHUAC', 'SOTO', '20-03-2001');
+INSERT INTO `mydbcurso`.`integrantes` (`rutIntegr`, `nomIntegr`, `appIntegr`, `apmIntegr`, `fecnanacIntegre`) VALUES ('19990007-2', 'FELIPE ANDRES ', 'ULLOA', 'CARDENAS ', '11-04-2000');
+INSERT INTO `mydbcurso`.`integrantes` (`rutIntegr`, `nomIntegr`, `appIntegr`, `apmIntegr`, `fecnanacIntegre`) VALUES ('21459633-4', 'MARTIN FERNANDO ', 'VASQUEZ', 'BECAR', '22-06-1999');
+INSERT INTO `mydbcurso`.`integrantes` (`rutIntegr`, `nomIntegr`, `appIntegr`, `apmIntegr`, `fecnanacIntegre`) VALUES ('20193368-4', 'TATIANA DEL PILAR ', 'VERGARA ', 'HUIRCAPAN', '17-01-2001');
+INSERT INTO `mydbcurso`.`integrantes` (`rutIntegr`, `nomIntegr`, `appIntegr`, `apmIntegr`, `fecnanacIntegre`) VALUES ('21513429-6', 'FRANCISCA CONSUELO ANTONIA ', 'VILLABLANCA ', 'LOYOLA', '21-02-2002');

@@ -1,0 +1,1 @@
+SELECT DISTINCT appEmp, apmEmp FROM Empleados

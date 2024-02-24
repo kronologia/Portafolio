@@ -1,0 +1,1 @@
+Select NroDept from departamentos

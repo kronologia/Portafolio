@@ -1,0 +1,16 @@
+0	8	14:38:50	CREATE TABLE IF NOT EXISTS `mydbRecursos`.`Recursos` (
+   `CodRecurso` VARCHAR(2) NOT NULL,
+   `Recurso` INT NULL,
+   `Run_Prof` VARCHAR(19) NOT NULL,
+   `CodDespacho` VARCHAR(1) NOT NULL,
+   PRIMARY KEY (`CodRecurso`),
+   INDEX `CodDespacho_idx` (`CodDespacho` ASC) VISIBLE,
+   CONSTRAINT `CodDespacho`
+     FOREIGN KEY (`CodDespacho`)
+     REFERENCES `mydbRecursos`.`Despachos` (`CodDespacho`)
+     ON DELETE NO ACTION
+     ON UPDATE NO ACTION)
+ ENGINE = InnoDB	Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '
+   CONSTRAINT `CodDespacho`
+     FOREIGN KEY (`CodDespacho`)
+     REFERENCES `m...' at line 7	0.016 sec

@@ -1,0 +1,1 @@
+SELECT CodPiz from pizarras
