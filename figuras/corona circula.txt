@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <math.h>
+void main() {
+    float X,Lmayor,Lmenor,rmayor,rmenor,pi;
+    X=Lmayor=Lmenor=rmayor=rmenor=pi=0;
+    pi=3.14;
+    printf("\n");
+    printf("Programa que calcule area, perimetro mayor y perimetro menor de una corona circular\n");
+    printf("Ingrese radio mayor: ");
+    scanf("%f",&rmayor);
+    printf("Ingrese radio menor ");
+    scanf("%f",&rmenor);
+    X=pi*(pow(rmayor,2)-pow(rmenor,2));
+    Lmayor=2*pi*rmayor;
+    Lmenor=2*pi*rmenor;
+    printf("El area de la corona circular es:%f\n",X);
+    printf("El perimetro mayor de la corona circular es:%f\n",Lmayor);
+    printf("El perimetro menor de la corona circular es:%f\n",Lmenor);
+    getch();
+}

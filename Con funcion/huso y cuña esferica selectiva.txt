@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <math.h>
+void main() 
+{
+    float X,L,r,n,pi;
+    X=L=r=n=pi=0;
+    pi=3.14;
+    printf("\n");
+    printf("Programa que calcule huso y cuña esferica\n");
+    printf("Ingrese radio: ");
+    scanf("%f",&r);
+    printf("Ingrese angulo: ");
+    scanf("%f",&n);
+    if ((r>0)&&(n<6))
+    {
+    X=(4*pi*pow(r,2)*n)/360;
+    L=(4*pi*pow(r,3)*n)/(3*360);
+    printf("El huso esferico es:%f\n",X);
+    printf("La cuña esferica es:%f\n",L);
+    }
+    
+    else{
+    
+    printf("error, uno de los valores no corresponde");    
+    
+    }
+    
+    
+    getch();
+}

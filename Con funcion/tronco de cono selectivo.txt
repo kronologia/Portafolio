@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <math.h>
+void main() {
+    float X,L,r,s,g,h,pi;
+    X=L=r=s=g=h=pi=0;
+    pi=3.14;
+    printf("\n");
+    printf("Programa que calcule area y volumen de un tronco de cono\n");
+    printf("Ingrese radio de la base mayor: ");
+    scanf("%f",&s);
+    printf("Ingrese radio de la base menor: ");
+    scanf("%f",&r);
+    printf("Ingrese altura: ");
+    scanf("%f",&h);
+    printf("Ingrese altura inclinada: ");
+    scanf("%f",&g);
+    if ((X>0) || (L>0) || (s>0) || (r>0) || (g>0))
+    {
+    X=pi*(g*(s+r)+pow(s,2)+pow(r,2));
+    L=((h*pi)/3)*(pow(s,2)+pow(r,2)+s+r);
+    printf("El area del tronco de cono es:%f\n",X);
+    printf("El volumen del tronco de cono es:%f\n",L);
+    }
+    else {
+        printf("error, uno de los valores no corresponde");
+    }
+    getch();
+}

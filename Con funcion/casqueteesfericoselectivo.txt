@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <math.h>
+
+void main() 
+{
+    float X,L,r,h,pi;
+    X=L=r=h=pi=0;
+    pi=3.14;
+    
+    printf("\n");
+    
+    printf("Programa que calcule area y volumen de casquete esferico\n");
+    
+    printf("Ingrese radio: ");
+    scanf("%f",&r);
+    
+    printf("Ingrese altura: ");
+    scanf("%f",&h);
+    if ((r>0)&&(h<6))
+    {
+    X=2*pi*r*h;
+    L=(pow(h,2)*pi*(3*r*h))/3;
+    
+    printf("El area es:%f\n",X);
+    printf("El volumen es:%f\n",L);
+    }
+    else {
+    
+    printf("error, uno de los valores no corresponde");    
+    
+    }
+    getch();
+}

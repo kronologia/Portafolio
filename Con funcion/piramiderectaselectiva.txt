@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <math.h>
+void main()
+{
+float X,V,b,e,h;
+X=V=b=e=h=0;
+printf("\n");
+printf("Calculadora del area y volumen de la piramide recta selectiva\n");
+printf("ingrese base, b\n");
+scanf("%f",&b);
+printf("ingrese altura, h\n");
+scanf("%f",&h);
+printf("ingrese altura inclinada, e\n");
+scanf("%f",&e);
+if ((b>0)&&(h<6)||(e>1))
+{
+X=b*(b+sqrt(4*pow(h,2)+pow(e,2)));
+V=(pow(e,2)*h)/3;
+printf("El area de la piramide recta es: %f \n", X);
+printf("El volumen de la piramide recta es: %f \n", V);
+}
+else
+{
+printf("Error, una de las variables no corresponde\n");
+}
+getch();
+}

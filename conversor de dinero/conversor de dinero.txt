@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <math.h>
+
+void main() {
+	float ARS;
+	float CLP;
+	float EUR;
+	float USD;
+	CLP = 0;
+	USD = 0;
+	ARS = 0;
+	EUR = 0;
+	printf(" conversor de monedas extranjeras\n");
+	printf(" ingresar peso chileno, Clp\n");
+	scanf("%f", &CLP);
+	if((CLP>0)&(CLP<100))
+	{
+	USD = CLP/855;
+	ARS = CLP/7.38;
+	EUR = CLP/902;
+	
+	printf("Clp a dolar es,%f\n",USD);
+	printf("Clp a peso argentino es,%f\n",ARS);
+	printf("Clp a euro es,%f\n",EUR);
+	}
+	else{
+	    printf("El monto se encuentra fuera del rango permitido");
+	}
+
+getch();
+}

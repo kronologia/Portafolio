@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <math.h>
+
+void main ()
+{
+    float X,L,r,s,h,pi;
+    X=L=r=s=h=0;
+    pi=3.14;
+    printf("\n");
+    printf("calcula area y volumen de la zona esferica \n");
+    printf("ingrese radio mayor r \n");
+    scanf("%f",&r);
+    printf("ingrese radio menor s\n");
+    scanf("%f",&s);
+    printf("ingrese altura h\n");
+    scanf("%f",&h);
+    if (((r>0)&&(s<6))||(h>1)) 
+    {
+    X=2*pi*r*h;
+	L=(pi*h*((h*h)+3*(r*r)+3*(s*s)))/6;
+	printf("el area de la zona esferica es:%f\n",X);
+	printf("el volumen de la zona esferica es:%f\n",L);
+    }
+    else{
+    
+      printf("error, uno de los valores no corresponde");  
+    }
+	getch();
+}

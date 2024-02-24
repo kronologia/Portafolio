@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <math.h>
+
+void main ()
+{
+    float X,L,a,b,c,h;
+    X=L=a=b=c=h=0;
+    printf("\n");
+    printf("calcula area y volumen del tronco de piramide \n");
+    printf("ingrese arista mayor a \n");
+    scanf("%f",&a);
+    printf("ingrese arista menor b \n");
+    scanf("%f",&b);
+    printf("ingrese apotema c \n");
+    scanf("%f",&c);
+    printf("ingrese altura h \n");
+    scanf("%f", &h);
+    if (((a>0)&&(h<6))||((c>1)&&(h>0)))
+    {
+    X=2*a+2*b+(4*a+4*b)/2*c;
+    L=(h*(2*a+2*b+sqrt(2*a+2*b)));
+    printf("el area del tronco de piramide es:%f\n",X);
+    printf("el volumen del tronco de piramide es:%f\n",L);
+    }
+    else{
+    
+    printf("error, uno de los valores no corresponde");    
+    
+    }
+    getch();
+    
+}

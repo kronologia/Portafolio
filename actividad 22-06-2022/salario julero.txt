@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <math.h>
+float main()
+{
+   float L , X, SI, INC, a;
+   SI=1500;
+   L=X=INC=a=0;
+   printf("\n");
+   printf("programa para calcular el incremento del sueldo \n");
+   printf("mostrar sueldo base %3.2f \n", SI);
+   X=SI;
+   while(a<6){
+       INC=X/10;
+       X=X+INC;
+       printf("el Sueldo cada año es: %3.2f \n", X);
+       a=a+1;
+       
+       
+   }
+   L=X;
+   printf("el sueldo final es: %3.2f \n", L);
+   getch();
+}

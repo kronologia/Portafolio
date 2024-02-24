@@ -1,0 +1,29 @@
+#include <stdio.h>
+void main() {
+    float X,L,a,b,c,d,h;
+    X=L=a=b=c=d=h=0;
+    printf("\n");
+    printf("Programa que calcule area y perimetro de un trapecio\n");
+    printf("Ingrese lado a del trapecio: ");
+    scanf("%f",&a);
+    printf("Ingrese lado b del trapecio: ");
+    scanf("%f",&b);
+    printf("Ingrese lado c del trapecio: ");
+    scanf("%f",&c);
+    printf("Ingrese lado d del trapecio: ");
+    scanf("%f",&d);
+    printf("Ingrese la altura: ");
+    scanf("%f",&h);
+    if ((a>0)&&(b>0)&&(c>0)&&(d>0)&&(h>0))
+    {
+    X=h*((b*d)/2);
+    L=a+b+c+d;
+    printf("El area del trapecio es:%f\n",X);
+    printf("El perimetro del trapecio es:%f\n",L);
+    }
+    else
+    {
+        printf("error, uno de los valores no corresponde");
+    }
+    getch();
+}

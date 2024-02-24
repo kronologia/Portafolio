@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+void main()
+{
+   int X,L,a,b;
+   X=L=a=b=0;
+   printf("\n");
+   printf("calcula area y perimetro de un rectangulo pero valores mayor que 0");
+   printf("ingrese lado de rectangulo, 'a' \n ");
+   scanf("%i", &a);
+   printf("ingrese lado de rectangulo, 'b' \n");
+   scanf("%i", &b);
+   if ((a>0)&&(b>0))
+   { 
+       X=a*b;
+       L=2*(a+b);
+       printf("el area del rectangulo es: %i \n", X);
+       printf("el perimetro del rectangulo es: %i \n", L);
+   }
+   else 
+   {
+       printf("valor de una variable no corresponde \n");
+   }
+    getch ();
+}

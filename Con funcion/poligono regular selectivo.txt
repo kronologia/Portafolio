@@ -1,0 +1,24 @@
+#include <stdio.h>
+void main() 
+{
+    float X,L,a,b;
+    X=L=a=b=0;
+    printf("\n");
+    printf("Programa que calcule area y perimetro de un poligono regular\n");
+    printf("Ingrese lado del poligono: ");
+    scanf("%f",&b);
+    printf("Ingrese apotema: ");
+    scanf("%f",&a);
+    if ((a>0)&&(b>0))
+    {
+    L=6*b;
+    X=a*(L/2);
+    printf("El area del poligono es:%f \n",X);
+    printf("El perimetro del poligono es:%f \n",L);
+    }
+    else
+    {
+        printf("error, uno de los valores no corresponde");
+    }
+    getch();
+}

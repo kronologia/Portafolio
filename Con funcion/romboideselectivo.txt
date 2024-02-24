@@ -1,0 +1,25 @@
+#include <stdio.h>
+void main() {
+    int X,L,a,b,h;
+    X=L=a=b=h=0;
+    printf("\n");
+    printf("Programa que calcule area y perimetro de un romboide\n");
+    printf("Ingrese lado a del romboide, a");
+    scanf("%i",&a);
+    printf("Ingrese lado b del romboide, b");
+    scanf("%i",&b);
+    printf("Ingrese altura del romboide, h");
+    scanf("%i",&h);
+    if((a>0)&&(b>0)&&(h>0))
+    {
+    X=h*b;
+    L=2*(a+b);
+    printf("El area del romboide es:%i\n",X);
+    printf("El perimetro del romboide es:%i\n",L);
+    }
+    else
+    {
+        printf("error, uno de los valores no corresponde \n");
+    }
+    getch();
+}

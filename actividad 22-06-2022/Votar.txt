@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+void main()
+{
+    int Edad;
+    Edad=0;
+    printf("\n");
+    printf("Determinanr si puede votar \n");
+    printf("Ingrese edad \n");
+    scanf("%i",&Edad);
+    if (Edad>=18)
+    {
+    printf("Usted puede votar \n");
+    }
+    else {
+        printf("Usted no puede votar \n");
+    }
+    getch();
+}

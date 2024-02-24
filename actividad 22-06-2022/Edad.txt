@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <math.h>
+
+void main()
+{
+    int AN, Ac, E;
+    E=AN=0;
+    Ac=2022;    
+    printf("\n");
+    printf("Algoritmo para entrevistar gente \n");
+    printf("ingrese nacimiento", AN);
+    scanf("%i", &AN);
+    E=Ac-AN;
+    
+    printf("La edad del entrevistado es %i \n", E);
+    
+    }
+    
+    getch();

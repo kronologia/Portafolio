@@ -1,0 +1,25 @@
+
+#include <stdio.h>
+void main() {
+    int X,L,a,b,c;
+    X=L=a=b=c=0;
+    printf("\n");
+    printf("Programa que calcule area y volumen de un ortoedro\n");
+    printf("Ingrese arista a: ");
+    scanf("%i",&a);
+    printf("Ingrese arista b: ");
+    scanf("%i",&b);
+    printf("Ingrese altura: ");
+    scanf("%i",&c);
+    if ((X>0) || (L>0) || (a>0) || (b>0) || (c>0))
+    {
+    X=2*((a*b)+(a*c)+(b*c));
+    L=a*b*c;
+    printf("El area del ortoedro es:%i\n",X);
+    printf("El volumen del ortoedro es:%i\n",L);
+    }
+    else {
+        printf("error, uno de los valores no corresponde");
+    }
+    getch();
+}

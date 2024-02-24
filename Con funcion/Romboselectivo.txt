@@ -1,0 +1,27 @@
+
+#include <stdio.h>
+#include <math.h>
+void main() {
+    float X,L,a,c,d;
+    X=L=a=c=d=0;
+    printf("\n");
+    printf("Programa que calcule area, lado y perimetro de un rombo\n");
+    printf("Ingrese segmento mayor del rombo: ");
+    scanf("%f",&c);
+    printf("Ingrese segmento menor del rombo: ");
+    scanf("%f",&d);
+    if ((c>0)&&(d>0))
+    {
+    X=(c*d)/2;
+    a=sqrt((pow(c,2)/2)+(pow(d,2)/2));
+    L=4*a;
+    printf("El area del rombo es: %f \n",X);
+    printf("El lado del rombo es: %f \n",a);
+    printf("El perimetro del rombo es: %f \n",L);
+    }
+    else
+    {
+        printf("error, uno de los valores no corresponde");
+    }
+    getch();
+}

@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <math.h> 
+int area (int lado);
+int perin(int lado);
+void main()
+{
+   int X,L,a;
+   X=L=a=0;
+   printf("\n");
+   printf("calcula area y perimetro de un cuadrado pero valores mayor que 0");
+   printf("ingrese lado de rectangulo, 'a' \n ");
+   scanf("%i", &a);
+       X=area(a);
+       L=perin(a);
+       printf("el area del rectangulo es: %i \n", X);
+       printf("el perimetro del rectangulo es: %i \n", L);
+      
+    getch ();
+}
+int area(int lado) {
+    int calculo;
+    calculo=0;
+    calculo= pow(lado,2);
+    return(calculo);
+    
+}
+int perin(int lado)
+{
+    int calculo;
+    calculo=0;
+    calculo=4*lado;
+    return(calculo);
+}

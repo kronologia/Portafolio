@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+void main()
+{
+   float X,B,h;
+   X=B=h=0;
+   printf("\n");
+   printf("calcula area \n");
+   printf("ingrese lado B \n");
+   scanf("%f", &B);
+   printf("ingrese lado h \n");
+   scanf("%f", &h);
+ 
+       X=(B*h)/2;
+       printf("el area del triangulo es: %3.2f \n", X);
+    getch ();
+}

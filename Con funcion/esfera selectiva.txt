@@ -1,0 +1,25 @@
+
+#include <stdio.h>
+#include <math.h>
+void main() 
+    {
+    float X,L,r,pi;
+    X=L=r=pi=0;
+    pi=3.14;
+    printf("\n");
+    printf("Programa que calcule area y volumen de una esfera\n");
+    printf("Ingrese radio: ");
+    scanf("%f",&r);
+    if (r>0)
+    {
+    X=4*pi*pow(r,2);
+    L=(4*pi*pow(r,3))/3;
+    printf("El area de la esfera es:%f\n",X);
+    printf("El volumen de la esfera es:%f\n",L);
+    }
+    else
+    {
+     printf ("error, uno de los valores no corresponde");
+    }
+    getch();
+}

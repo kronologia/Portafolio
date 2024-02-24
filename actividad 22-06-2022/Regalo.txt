@@ -1,0 +1,39 @@
+
+#include <stdio.h>
+
+int main()
+{   
+    int P;
+    P=0;
+    printf("\n");
+    printf("Determinar que regalo comprar \n");
+    printf("Ingrese presupueto \n");
+    scanf("%i",&P);
+        if (P<=7)
+    {
+    printf("Puede comprar chocolates \n");
+    }
+    else {
+        printf("No puede comprar chocolates \n");
+    }    
+    if (P>=11)
+    {
+    printf("Puede comprar una tarjeta \n");
+    }
+    else {
+        printf("No puede comprar flores \n");
+    }    if (P>=101)
+    {
+    printf("Puede comprar flores \n");
+    }
+    else {
+        printf("No puede comprar una tarjeta \n");
+    }    if (P>251)
+    {
+    printf("Puede comprar un anillo \n");
+    }
+    else {
+        printf("No puede comprar un anillo \n");
+    }
+    getch();
+}
